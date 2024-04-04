@@ -1,11 +1,13 @@
+# Python Optimization with NumPy (Vectorization)
+
 ## Methods
 
-I simply created different methods to simulate some data and compare between these methods regarding their performance when increasing the sample size.
+I created different methods to simulate some data and compare these methods regarding their performance when increasing the sample size.
 
--   Method 1: unvectorized method using Python list;
--   Method 2: unvectorized method using Numpy array;
--   Method 3: partially vectorized method (i.e., this method still utilizes Python list and an explicit loop)
--   Method 4: fully vectorized method (i.e., only use Numpy array and vectorization provided by Numpy)
+-   Method 1: Unvectorized method using Python list;
+-   Method 2: Unvectorized method using Numpy array;
+-   Method 3: Partially vectorized method (i.e., this method still utilizes a Python list and an explicit loop)
+-   Method 4: Fully vectorized method (i.e., only use Numpy array and vectorization provided by Numpy)
 
 See the code below
 
